@@ -1,0 +1,23 @@
+# Private extension signing keys
+enterprise/build/keys/
+*.pem
+
+# Build output
+enterprise/build/output/
+enterprise/build/zip-test/
+
+# Generated deployment package
+enterprise/deployment-package/
+
+# Temporary files
+*.tmp
+*.log
+
+# Windows / editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# PowerShell history or local test artifacts
+test-file.txt

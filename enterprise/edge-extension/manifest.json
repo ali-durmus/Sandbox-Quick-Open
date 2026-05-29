@@ -1,0 +1,13 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Sandbox Quick Open",
+  "version": "0.1.0",
+  "description": "Open links in Windows Sandbox from the browser context menu.",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,16 @@
+$ErrorActionPreference = "Stop"
+
+Write-Host ""
+Write-Host "Get-CrxExtensionId.ps1 is currently disabled." -ForegroundColor Yellow
+Write-Host ""
+Write-Host "Current verified enterprise extension ID:"
+Write-Host "  ggbiljdbhodacinlhnpgfncemecamjpf"
+Write-Host ""
+Write-Host "How this ID was verified:"
+Write-Host "  1. Build the CRX package with Build-EdgeExtension.ps1"
+Write-Host "  2. Load the CRX package in Chrome/Edge extensions page"
+Write-Host "  3. Read the extension ID from the browser extension details"
+Write-Host ""
+Write-Host "TODO:"
+Write-Host "  Implement automatic CRX3 extension ID detection later."
+Write-Host ""

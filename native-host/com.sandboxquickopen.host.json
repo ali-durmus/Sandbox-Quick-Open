@@ -1,0 +1,9 @@
+{
+  "name": "com.sandboxquickopen.host",
+  "description": "Sandbox Quick Open Native Messaging Host",
+  "path": "C:\\Users\\Student\\AppData\\Local\\Sandbox Quick Open\\SandboxQuickOpenHost.cmd",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://eokaogaleloiehicgbojelipgbjlhdod/"
+  ]
+}
