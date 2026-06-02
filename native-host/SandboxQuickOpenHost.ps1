@@ -75,7 +75,7 @@ try {
         exit 1
     }
 
-    $OpenUrlScript = Join-Path $env:LOCALAPPDATA "Sandbox Quick Open\Open-Url-InSandbox.ps1"
+    $OpenUrlScript = Join-Path $PSScriptRoot "Open-Url-InSandbox.ps1"
 
     if (-not (Test-Path -LiteralPath $OpenUrlScript)) {
         Write-NativeMessage @{
